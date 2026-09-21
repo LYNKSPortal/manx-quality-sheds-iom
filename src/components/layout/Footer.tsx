@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { Container } from "@/components/ui/Container";
@@ -13,10 +14,13 @@ export function Footer() {
       <Container className="py-16">
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2 lg:col-span-1">
-            <p className="text-lg font-semibold tracking-tight text-charcoal">
-              {siteConfig.name}
-            </p>
-            <p className="mt-3 max-w-xs text-sm leading-relaxed text-charcoal-soft">
+            <Image
+              src="/branding/logo-horizontal-black.png"
+              alt="Manx Quality Sheds"
+              width={372}
+              height={40}
+            />
+            <p className="mt-4 max-w-xs text-sm leading-relaxed text-charcoal-soft">
               A family-run Isle of Man business with 20+ years of experience building bespoke
               sheds, summer houses, garden rooms, decking, fencing and complete garden
               transformations.
@@ -105,7 +109,15 @@ export function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col gap-4 border-t border-charcoal/10 pt-8 sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-xs text-charcoal-soft">
+          <p className="flex items-center gap-2 text-xs text-charcoal-soft">
+            <Image
+              src="/branding/logo-triskelion-black.png"
+              alt=""
+              width={16}
+              height={17}
+              aria-hidden="true"
+              className="size-3.5 opacity-70"
+            />
             &copy; {year} {siteConfig.name}. All rights reserved.
           </p>
           <ul className="flex flex-wrap gap-x-6 gap-y-2">

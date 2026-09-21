@@ -47,6 +47,7 @@ src/
     validation.ts          Zod schema + option lists for the contact form
     seo.ts                 Metadata helper used by every page
 public/
+  branding/                Real logo assets (see "Branding" below)
   images/                  Image assets (see below)
 scripts/
   generate-placeholders.mjs  Regenerates the placeholder SVG images
@@ -70,6 +71,33 @@ touch components to update copy:
 - **Navigation**: `src/lib/data/nav.ts`
 - **Process steps / "Why Choose Us"**: `src/lib/data/process.ts`,
   `src/lib/data/why-choose-us.ts`
+
+## Branding
+
+Real logo artwork lives in `public/branding/`, provided as PNGs in black,
+tan/gold, white and (for one variant) charcoal, so the right contrast can be
+used on any background:
+
+- `logo-horizontal-*.png` &mdash; icon + wordmark, used in the header (black)
+  and footer (black) navbar-style lockup.
+- `logo-full-*.png` &mdash; icon + wordmark + "Bespoke and Imaginative"
+  tagline + triskelion, used for the default social share image
+  (`public/images/misc/og-default.png`, white-on-forest).
+- `logo-icon-*.png` &mdash; the house mark only, used to generate the
+  favicon/app icons (`src/app/icon.png`, `src/app/apple-icon.png` &mdash;
+  white icon on a forest-green background).
+- `logo-triskelion-*.png` &mdash; the Manx triskelion symbol, used as a small
+  accent next to the footer copyright line.
+- `logo-wordmark-*.png`, `logo-monogram-*.png`, `logo-stacked-*.png` &mdash;
+  additional lockups (wordmark only, "MQS" monogram, stacked wordmark) not
+  currently used in a template but available for future pages, print
+  materials, or social profile images.
+
+To regenerate the favicon/app icons or the OG image after updating a logo
+file, re-run the equivalent Pillow (PIL) script used to create them (resize
+`logo-icon-white.png` onto a forest `#3f4a3a` square for the icons; composite
+`logo-full-white.png` onto a 1200x630 charcoal/forest gradient for the OG
+image), or recreate them in an image editor at the same paths.
 
 ## Replacing Placeholder Images
 

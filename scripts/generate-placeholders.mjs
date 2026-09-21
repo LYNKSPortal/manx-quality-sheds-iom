@@ -147,7 +147,9 @@ for (const [slug, label, w, h] of galleryItems) {
 }
 
 // Process icons area / misc
+// Note: the default social share image (public/images/misc/og-default.png)
+// is generated from the real logo assets in public/branding/ instead of
+// this placeholder script - see README for how to regenerate it.
 write("misc/quote-cta-background.svg", 1920, 800, "Start Your Bespoke Build");
-write("misc/og-default.svg", 1200, 630, "Manx Quality Sheds — Bespoke Outdoor Spaces");
 
 console.log("\nDone. Placeholder SVGs written to public/images/.");

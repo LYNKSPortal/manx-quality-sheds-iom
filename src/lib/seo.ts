@@ -17,7 +17,7 @@ export function buildMetadata({
   title,
   description,
   path,
-  image = "/images/misc/og-default.svg",
+  image = "/images/misc/og-default.png",
 }: PageMetadataInput): Metadata {
   const url = `${siteConfig.url}${path}`;
 

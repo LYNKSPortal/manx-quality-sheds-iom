@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
@@ -48,14 +49,15 @@ export function Header() {
       <Container className="flex h-20 items-center justify-between">
         <Link
           href="/"
-          className="flex flex-col leading-tight focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-forest rounded-sm"
+          className="flex items-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-forest rounded-sm"
         >
-          <span className="font-semibold text-lg sm:text-xl tracking-tight text-charcoal">
-            Manx Quality Sheds
-          </span>
-          <span className="text-[11px] uppercase tracking-[0.18em] text-charcoal-soft">
-            Isle of Man &middot; Est. 20+ Years
-          </span>
+          <Image
+            src="/branding/logo-horizontal-black.png"
+            alt="Manx Quality Sheds"
+            width={334}
+            height={36}
+            priority
+          />
         </Link>
 
         <nav aria-label="Primary" className="hidden lg:flex items-center gap-1">

@@ -28,9 +28,6 @@ export const metadata: Metadata = {
     "Manx Quality Sheds",
   ],
   authors: [{ name: siteConfig.name }],
-  icons: {
-    icon: "/favicon.ico",
-  },
   robots: {
     index: true,
     follow: true,
@@ -62,7 +59,11 @@ const localBusinessJsonLd = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${manrope.variable} h-full antialiased`}>
+    <html
+      lang="en"
+      data-scroll-behavior="smooth"
+      className={`${manrope.variable} h-full antialiased`}
+    >
       <body className="min-h-full flex flex-col bg-background text-charcoal">
         <script
           type="application/ld+json"
