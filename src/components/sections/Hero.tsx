@@ -8,8 +8,8 @@ export function Hero() {
   return (
     <section className="relative flex min-h-[92vh] items-end overflow-hidden bg-charcoal">
       <Image
-        src="/images/hero/home-hero.svg"
-        alt="Bespoke Western Red Cedar garden room and summerhouse built by Manx Quality Sheds on the Isle of Man"
+        src="/images/hero/home-hero.jpg"
+        alt="Bespoke cedar-clad garden room with decking, hand built by Manx Quality Sheds on the Isle of Man"
         fill
         priority
         sizes="100vw"

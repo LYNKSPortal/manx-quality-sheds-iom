@@ -54,7 +54,7 @@ export const services: Service[] = [
           "We use quality timber suited to the Isle of Man climate. We're happy to talk through cladding and timber options for your specific project when we visit or quote.",
       },
     ],
-    coverImage: "/images/services/bespoke-sheds/cover.svg",
+    coverImage: "/images/services/bespoke-sheds/cover.jpg",
     detailImages: [
       "/images/services/bespoke-sheds/detail-1.svg",
       "/images/services/bespoke-sheds/detail-2.svg",
@@ -94,7 +94,7 @@ export const services: Service[] = [
           "Insulation can be included depending on how you intend to use the space. Let us know your plans and we'll advise on the right build-up for your budget.",
       },
     ],
-    coverImage: "/images/services/summer-houses/cover.svg",
+    coverImage: "/images/services/summer-houses/cover.jpg",
     detailImages: [
       "/images/services/summer-houses/detail-1.svg",
       "/images/services/summer-houses/detail-2.svg",
@@ -134,7 +134,7 @@ export const services: Service[] = [
           "This depends on the size, position and use of the building. We're happy to talk through general considerations for your specific project when we visit, though we'd always recommend checking with the relevant Isle of Man authority for anything unusual.",
       },
     ],
-    coverImage: "/images/services/garden-rooms/cover.svg",
+    coverImage: "/images/services/garden-rooms/cover.jpg",
     detailImages: [
       "/images/services/garden-rooms/detail-1.svg",
       "/images/services/garden-rooms/detail-2.svg",
@@ -174,7 +174,7 @@ export const services: Service[] = [
           "We can discuss timber and composite decking options and their relative maintenance and cost when we quote your project.",
       },
     ],
-    coverImage: "/images/services/decking/cover.svg",
+    coverImage: "/images/services/decking/cover.jpg",
     detailImages: [
       "/images/services/decking/detail-1.svg",
       "/images/services/decking/detail-2.svg",
@@ -214,7 +214,7 @@ export const services: Service[] = [
           "Yes, we handle removal of old fencing as part of a fencing or garden transformation project.",
       },
     ],
-    coverImage: "/images/services/fencing/cover.svg",
+    coverImage: "/images/services/fencing/cover.jpg",
     detailImages: [
       "/images/services/fencing/detail-1.svg",
       "/images/services/fencing/detail-2.svg",
@@ -254,7 +254,7 @@ export const services: Service[] = [
           "This depends heavily on the scope of the project. We'll give you a realistic timescale as part of your design and quote.",
       },
     ],
-    coverImage: "/images/services/garden-transformations/cover.svg",
+    coverImage: "/images/services/garden-transformations/cover.jpg",
     detailImages: [
       "/images/services/garden-transformations/detail-1.svg",
       "/images/services/garden-transformations/detail-2.svg",

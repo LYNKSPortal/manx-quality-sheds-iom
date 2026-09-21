@@ -14,7 +14,7 @@ export function ServiceCard({ service, delay = 0 }: { service: Service; delay?: 
         href={`/services/${service.slug}`}
         className="flex h-full flex-col overflow-hidden rounded-3xl border border-charcoal/10 bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-charcoal/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-forest"
       >
-        <div className="relative aspect-[4/3] w-full overflow-hidden">
+        <div className="relative aspect-square w-full overflow-hidden">
           <Image
             src={service.coverImage}
             alt={`${service.title} by Manx Quality Sheds`}

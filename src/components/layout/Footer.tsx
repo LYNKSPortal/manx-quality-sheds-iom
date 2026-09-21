@@ -15,10 +15,10 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2 lg:col-span-1">
             <Image
-              src="/branding/logo-horizontal-black.png"
-              alt="Manx Quality Sheds"
-              width={372}
-              height={40}
+              src="/branding/logo-full-black.png"
+              alt="Manx Quality Sheds - Bespoke and Imaginative"
+              width={220}
+              height={110}
             />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-charcoal-soft">
               A family-run Isle of Man business with 20+ years of experience building bespoke
@@ -109,15 +109,7 @@ export function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col gap-4 border-t border-charcoal/10 pt-8 sm:flex-row sm:items-center sm:justify-between">
-          <p className="flex items-center gap-2 text-xs text-charcoal-soft">
-            <Image
-              src="/branding/logo-triskelion-black.png"
-              alt=""
-              width={16}
-              height={17}
-              aria-hidden="true"
-              className="size-3.5 opacity-70"
-            />
+          <p className="text-xs text-charcoal-soft">
             &copy; {year} {siteConfig.name}. All rights reserved.
           </p>
           <ul className="flex flex-wrap gap-x-6 gap-y-2">
