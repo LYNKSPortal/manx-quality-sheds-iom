@@ -1,12 +1,31 @@
+import { Hero } from "@/components/sections/Hero";
+import { TrustStrip } from "@/components/sections/TrustStrip";
+import { AboutIntro } from "@/components/sections/AboutIntro";
+import { ServicesOverview } from "@/components/sections/ServicesOverview";
+import { FeaturedProject } from "@/components/sections/FeaturedProject";
+import { Gallery } from "@/components/sections/Gallery";
+import { WhyChooseUs } from "@/components/sections/WhyChooseUs";
+import { Process } from "@/components/sections/Process";
+import { Testimonials } from "@/components/sections/Testimonials";
+import { FinancingTeaser } from "@/components/sections/FinancingTeaser";
+import { FaqPreview } from "@/components/sections/FaqPreview";
+import { CtaBanner } from "@/components/sections/CtaBanner";
+
 export default function Home() {
   return (
-    <div className="flex flex-1 flex-col items-center justify-center bg-zinc-950 px-6 text-center">
-      <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-        Manx Quality Sheds
-      </h1>
-      <p className="mt-6 text-xl font-medium text-zinc-400 sm:text-2xl">
-        Coming Soon
-      </p>
-    </div>
+    <>
+      <Hero />
+      <TrustStrip />
+      <AboutIntro />
+      <ServicesOverview />
+      <FeaturedProject />
+      <Gallery />
+      <WhyChooseUs />
+      <Process />
+      <Testimonials />
+      <FinancingTeaser />
+      <FaqPreview />
+      <CtaBanner />
+    </>
   );
 }
